@@ -211,7 +211,13 @@ h1{
 
 
 
-@media screen and (max-width: 992px){
+@media only screen
+
+  and (min-device-width: 375px)
+
+  and (max-device-width: 812px)
+
+  and (-webkit-min-device-pixel-ratio: 3) {
 
 	html{
 		font-size: 39px;
@@ -246,5 +252,68 @@ h1{
 		text-align: center;
 		margin-top: 20px;
 	}
+
+
+	/*Onderin alle pagina`s*/
+	.bottom{
+		position: relative;
+		bottom: 0rem;
+		background-color: black;
+		color: #fff;
+		padding: 5rem;
+		height: 23rem;
+		padding-bottom: 54px;
+	}
+
+	.products{
+		position: absolute;
+		left: 4%;
+		top: 3rem;
+		color: #fff;
+		font-size: smaller;
+	}
+
+	.contact{
+		position: absolute;
+		right: 30%;
+		top: 3rem;
+		font-size: smaller;
+	}
+
+	.legal{
+		position: absolute;
+		left: 4%;
+		top: 13rem;
+		font-size: smaller;
+	}
+
+	.logo-under1 img{
+		width: 12rem;
+		box-sizing: content-box;
+		position: absolute;
+		right: 7rem;
+		bottom: 1rem;
+	}
+
+	.logo-under{
+		width: 16rem;
+		box-sizing: content-box;
+		position: absolute;
+		right: 1rem;
+		top: 10rem;
+	}
+
+	.logo-under img{
+		display: block;
+		width: 100%;
+	}
+
+
+
+
+	.cs{
+		margin-bottom: 440px;
+	}
+
 }
 
