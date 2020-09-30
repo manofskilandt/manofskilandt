@@ -78,6 +78,7 @@ h1{
 	margin: 20px;
 	margin-top: 30px;
 	margin-bottom: 70px;
+	text-decoration-line: underline;
 }
 
 
@@ -211,6 +212,11 @@ h1{
 
 
 
+
+
+/* media query */
+
+/* iPhone X, XS, 11 Pro */
 @media only screen
 
   and (min-device-width: 375px)
@@ -224,64 +230,54 @@ h1{
 	}
 
 	/* nav */
-	ul{
-		list-style-type: disc;
-		margin: 0;
-		padding: 0;
-		overflow: hidden;
-		background-color: white;
-	}
-
-	li{
-		display: inline;
-		float: left;
-	}
-
-
 	li a{
-		display: block;
-		color: #94ad4f;
-		text-align: center;
-		padding: 25px 28px;
-		text-decoration: none;
+		padding: 30px 28px;
 	}
 
 	.logo img{
 		width: 200px;
-		height: auto;
-		text-align: center;
-		margin-top: 20px;
+		margin-top: 25px;
+	}
+
+	/* body */
+
+	h1{
+		font-size: 60px;
+		border-bottom: 10px;
+		margin: 20px;
+		margin-top: 200px;
+		margin-bottom: 70px;
+	}
+
+
+	/* knoppen */
+
+	.buttons{
+		margin-top: 110px;
 	}
 
 
 	/*Onderin alle pagina`s*/
 	.bottom{
-		position: relative;
 		bottom: 0rem;
-		background-color: black;
-		color: #fff;
 		padding: 5rem;
 		height: 23rem;
 		padding-bottom: 54px;
 	}
 
 	.products{
-		position: absolute;
 		left: 4%;
 		top: 3rem;
-		color: #fff;
 		font-size: smaller;
 	}
 
 	.contact{
-		position: absolute;
-		right: 30%;
+		right: 25%;
 		top: 3rem;
 		font-size: smaller;
 	}
 
 	.legal{
-		position: absolute;
 		left: 4%;
 		top: 13rem;
 		font-size: smaller;
@@ -289,17 +285,13 @@ h1{
 
 	.logo-under1 img{
 		width: 12rem;
-		box-sizing: content-box;
-		position: absolute;
 		right: 7rem;
 		bottom: 1rem;
 	}
 
 	.logo-under{
 		width: 16rem;
-		box-sizing: content-box;
-		position: absolute;
-		right: 1rem;
+		right: 0rem;
 		top: 10rem;
 	}
 
@@ -307,13 +299,347 @@ h1{
 		display: block;
 		width: 100%;
 	}
+}
 
+/* iPhone XR, 11 */
+@media only screen
 
+  and (min-device-width: 414px)
 
+  and (max-device-width: 896px)
 
-	.cs{
-		margin-bottom: 440px;
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+	html{
+		font-size: 39px;
 	}
 
+	/* nav */
+	li a{
+		padding: 30px 28px;
+	}
+
+	.logo img{
+		width: 200px;
+		margin-top: 25px;
+	}
+
+	/* body */
+
+	h1{
+		font-size: 60px;
+		border-bottom: 10px;
+		margin: 20px;
+		margin-top: 200px;
+		margin-bottom: 70px;
+	}
+
+
+	/* knoppen */
+
+	.buttons{
+		margin-top: 110px;
+	}
+
+
+	/*Onderin alle pagina`s*/
+	.bottom{
+		bottom: 0rem;
+		padding: 5rem;
+		height: 23rem;
+		padding-bottom: 54px;
+	}
+
+	.products{
+		left: 4%;
+		top: 3rem;
+		font-size: smaller;
+	}
+
+	.contact{
+		right: 25%;
+		top: 3rem;
+		font-size: smaller;
+	}
+
+	.legal{
+		left: 4%;
+		top: 13rem;
+		font-size: smaller;
+	}
+
+	.logo-under1 img{
+		width: 12rem;
+		right: 7rem;
+		bottom: 1rem;
+	}
+
+	.logo-under{
+		width: 16rem;
+		right: 0rem;
+		top: 10rem;
+	}
+
+	.logo-under img{
+		display: block;
+		width: 100%;
+	}
 }
+
+/* iPhone 6 Plus, 6S Plus, 7 Plus, 8 Plus */
+@media only screen
+
+  and (min-device-width: 414px)
+
+  and (max-device-width: 736px)
+
+  and (-webkit-min-device-pixel-ratio: 3) {
+
+	html{
+		font-size: 39px;
+	}
+
+	/* nav */
+	li a{
+		padding: 36px 28px;
+	}
+
+	.logo img{
+		width: 200px;
+		margin-top: 25px;
+	}
+
+	/* body */
+
+	h1{
+		font-size: 60px;
+		border-bottom: 10px;
+		margin: 20px;
+		margin-top: 200px;
+		margin-bottom: 70px;
+	}
+
+
+	/* knoppen */
+
+	.buttons{
+		margin-top: 110px;
+	}
+
+
+	/*Onderin alle pagina`s*/
+	.bottom{
+		bottom: 0rem;
+		padding: 5rem;
+		height: 23rem;
+		padding-bottom: 54px;
+	}
+
+	.products{
+		left: 4%;
+		top: 3rem;
+		font-size: smaller;
+	}
+
+	.contact{
+		right: 25%;
+		top: 3rem;
+		font-size: smaller;
+	}
+
+	.legal{
+		left: 4%;
+		top: 13rem;
+		font-size: smaller;
+	}
+
+	.logo-under1 img{
+		width: 12rem;
+		right: 7rem;
+		bottom: 1rem;
+	}
+
+	.logo-under{
+		width: 16rem;
+		right: 0rem;
+		top: 10rem;
+	}
+
+	.logo-under img{
+		display: block;
+		width: 100%;
+	}
+}
+
+/* iPhone 6, 6S, 7, 8 */
+@media only screen
+
+  and (min-device-width: 375px)
+
+  and (max-device-width: 667px)
+
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+	html{
+		font-size: 39px;
+	}
+
+	/* nav */
+	li a{
+		padding: 36px 28px;
+	}
+
+	.logo img{
+		width: 200px;
+		margin-top: 25px;
+	}
+
+	/* body */
+
+	h1{
+		font-size: 60px;
+		border-bottom: 10px;
+		margin: 20px;
+		margin-top: 200px;
+		margin-bottom: 70px;
+	}
+
+
+	/* knoppen */
+
+	.buttons{
+		margin-top: 110px;
+	}
+
+
+	/*Onderin alle pagina`s*/
+	.bottom{
+		bottom: 0rem;
+		padding: 5rem;
+		height: 23rem;
+		padding-bottom: 54px;
+	}
+
+	.products{
+		left: 4%;
+		top: 3rem;
+		font-size: smaller;
+	}
+
+	.contact{
+		right: 25%;
+		top: 3rem;
+		font-size: smaller;
+	}
+
+	.legal{
+		left: 4%;
+		top: 13rem;
+		font-size: smaller;
+	}
+
+	.logo-under1 img{
+		width: 12rem;
+		right: 7rem;
+		bottom: 1rem;
+	}
+
+	.logo-under{
+		width: 16rem;
+		right: 0rem;
+		top: 10rem;
+	}
+
+	.logo-under img{
+		display: block;
+		width: 100%;
+	}
+}
+
+/* iPhone 5, 5C, 5S, SE */
+@media only screen
+
+  and (min-device-width: 320px)
+
+  and (max-device-width: 568px)
+
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+	html{
+		font-size: 39px;
+	}
+
+	/* nav */
+	li a{
+		padding: 36px 28px;
+	}
+
+	.logo img{
+		width: 200px;
+		margin-top: 25px;
+	}
+
+	/* body */
+
+	h1{
+		font-size: 60px;
+		border-bottom: 10px;
+		margin: 20px;
+		margin-top: 200px;
+		margin-bottom: 70px;
+	}
+
+
+	/* knoppen */
+
+	.buttons{
+		margin-top: 110px;
+	}
+
+
+	/*Onderin alle pagina`s*/
+	.bottom{
+		bottom: 0rem;
+		padding: 5rem;
+		height: 23rem;
+		padding-bottom: 54px;
+	}
+
+	.products{
+		left: 4%;
+		top: 3rem;
+		font-size: smaller;
+	}
+
+	.contact{
+		right: 25%;
+		top: 3rem;
+		font-size: smaller;
+	}
+
+	.legal{
+		left: 4%;
+		top: 13rem;
+		font-size: smaller;
+	}
+
+	.logo-under1 img{
+		width: 12rem;
+		right: 7rem;
+		bottom: 1rem;
+	}
+
+	.logo-under{
+		width: 16rem;
+		right: 0rem;
+		top: 10rem;
+	}
+
+	.logo-under img{
+		display: block;
+		width: 100%;
+	}
+}
+
+
 
